@@ -9,6 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.openthinking.book.service.controllers.BookServiceController;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 class BookServiceApplicationTests {
