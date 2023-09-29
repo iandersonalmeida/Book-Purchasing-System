@@ -18,6 +18,8 @@ I created a POJO class called Book. This class was imported into the BookService
 
 ![](response1.PNG)
 
+The public Book getAllExistingBooks(...) method returns a constructed (new) object of type Book with some information that is passed as arguments in the methods defined in the Book class and that are invoked by the Book object immediately after its creation. Only the “bookId” argument receives its value through the URI, where this value is associated with the parameter in the method.
+
 ## Project Status
 The project is currently under development.
 
