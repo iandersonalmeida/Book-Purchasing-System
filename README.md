@@ -29,9 +29,9 @@ When we talk about properties of an object, what do we mean? It means that the o
 
 I would say that computational operations are carried out in “floating” locations without necessarily knowing where the operation in question came from; These operations can be thought of as services offered. One of the properties of cloud computing is having resources located in different locations and which can be accessed as services. Now, going directly to the ideas in the books, these services are offered as IaaS, PaaS and SaaS:
 
--IaaS refers to computing resources that are required for infrastructure as a service;
--PaaS indicates a platform as a service. The provider of this service offers resources in addition to infrastructure for application development; 
--SaaS is the idea of business applications or software products as a service.
+- IaaS refers to computing resources that are required for infrastructure as a service;
+- PaaS indicates a platform as a service. The provider of this service offers resources in addition to infrastructure for application development; 
+- SaaS is the idea of business applications or software products as a service.
 
 A Spring Cloud configuration server has been developed. Through the Spring Starter Project, a project based on Spring Boot was created with all the necessary configurations represented in the pom.xml file; this file represents a Maven project. These settings are necessary to initialize the server.The class that will start the Spring Cloud service is the class that has the main method that serves as the execution entry point. This class is the ConfserverApplication class that returns at runtime an object of the Class class that represents ConfserverApplication. This class has two annotations: @SpringBootApplication and @EnableConfigServer. The @SpringBootApplication annotation includes @Configuration, @EnableAutoConfiguration, and @ComponentScan:
 
