@@ -45,7 +45,9 @@ The developed microservice is also a Spring Boot application called _bookmicrose
 - spring.profiles.active: indicates which profile is active. In my case, it is native, which means that I am using the filesystem to store application configuration data that will be loaded;
 - spring.cloud.config.server.native.search-locations: represents the locations where Spring Boot should look for configuration files.
 
-Spring Boot provides the Spring Boot Actuator. Thus, two properties were added that allow checking and managing the environment through endpoints such as /env, /health, for example. I got as a result:
+Spring Boot provides the Spring Boot Actuator. Thus, two properties were added that allow checking and managing the environment through endpoints such as /env, /health, for example. With the URI: http://localhost:8080/actuator/env, I obtain configuration information from the application database as well as some environment information, respectively,
+
+
 
 
   
