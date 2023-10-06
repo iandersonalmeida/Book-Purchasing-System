@@ -33,12 +33,15 @@ I would say that computational operations are carried out in “floating” loca
 - PaaS indicates a platform as a service. The provider of this service offers resources in addition to infrastructure for application development; 
 - SaaS is the idea of business applications or software products as a service.
 
-A Spring Cloud configuration server has been developed. Through the Spring Starter Project, a project based on Spring Boot was created with all the necessary configurations represented in the pom.xml file; this file represents a Maven project. These settings are necessary to initialize the server.The class that will start the Spring Cloud service is the class that has the main method that serves as the execution entry point. This class is the ConfserverApplication class that returns at runtime an object of the Class class that represents ConfserverApplication. This class has two annotations: @SpringBootApplication and @EnableConfigServer. The @SpringBootApplication annotation includes @Configuration, @EnableAutoConfiguration, and @ComponentScan:
+A Spring Cloud configuration server was developed based on IaaS. Through the Spring Starter Project, a project based on Spring Boot was created with all the necessary configurations represented in the pom.xml file; this file represents a Maven project. These settings are necessary to initialize the server.The class that will start the Spring Cloud service is the class that has the main method that serves as the execution entry point. This class is the ConfserverApplication class that returns at runtime an object of the Class class that represents ConfserverApplication. This class has two annotations: @SpringBootApplication and @EnableConfigServer. The @SpringBootApplication annotation includes @Configuration, @EnableAutoConfiguration, and @ComponentScan:
 
 - @Configuration: Indicates that a class declares one or more @Bean methods and can be processed by the Spring container to generate bean definitions and service requests for those beans at run time. The Spring container will process a class with this annotation as a configuration class that will be used to define beans;
 - @EnableAutoConfiguration: Indicates a self-configuration of the context that this annotation provides. This self-configuration also involves the beans that will be configured.
 - @ComponentScan: A component can be a class with a certain annotation that will allow Spring to detect and register it as a bean in the application context.
+- @EnableConfigServer allows a class to act as a configuration server for other applications. So, I have the ConfserverApplication class that will be used as a configuration server for the microservices.
 
+The data is provided by the configuration server for the services. The configuration server manages the properties of each application. The application.properties file points to the repository that holds the application's configuration data.
+  
 ## Project Status
 The project is currently under development.
 
