@@ -47,6 +47,9 @@ The developed microservice is also a Spring Boot application called _bookmicrose
 
 Spring Boot provides the Spring Boot Actuator. Thus, two properties were added that allow checking and managing the environment through endpoints such as /env, /health, for example. With the URI: http://localhost:8080/actuator/env, I obtain configuration information from the application database as well as some environment information, respectively,
 
+![](db-info.PNG)
+
+![](env-info.PNG)
 
 
 
