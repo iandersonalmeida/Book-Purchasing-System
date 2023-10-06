@@ -27,7 +27,7 @@ The public Book getAllExistingBooks(...) method returns a constructed (new) obje
 
 When we talk about properties of an object, what do we mean? It means that the object has attributes, qualities or characteristics that distinguish it from others; the possession of these characteristics constitutes the properties of an object; it is something about the object “in itself” that is perceptible; for example, one of the properties of stone would be hardness. Through properties it is possible to describe the object or the concept of the object. Given these preliminary considerations, what would be the concept of cloud or cloud computing?
 
-I would say that computational operations are carried out in “floating” locations without necessarily knowing where the operation in question came from; These operations can be thought of as services offered. One of the properties of cloud computing is having resources located in different locations and which can be accessed as services. Now, going directly to the ideas in the books, these services are offered as IaaS, PaaS and SaaS:
+I would say that computational operations are carried out in “floating” locations without necessarily knowing where the operation in question came from; these operations can be thought of as services offered. One of the properties of cloud computing is having resources located in different locations and which can be accessed as services. Now, going directly to the ideas in the books, these services are offered as IaaS, PaaS and SaaS:
 
 - IaaS refers to computing resources that are required for infrastructure as a service;
 - PaaS indicates a platform as a service. The provider of this service offers resources in addition to infrastructure for application development; 
