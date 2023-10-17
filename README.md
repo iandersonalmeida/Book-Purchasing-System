@@ -59,5 +59,5 @@ Thus, I obtain configuration information from the application database as well a
 The project is currently under development.
 
 ## Inspiration
-This application is based on the book: Spring Microservices in Action.
+This application is based on the book: Spring Microservices in Action, and Spring Framework Documentation.
 
