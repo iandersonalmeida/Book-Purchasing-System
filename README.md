@@ -54,6 +54,13 @@ Spring Boot provides the Spring Boot Actuator. Thus, two properties were added t
 
 Thus, I obtain configuration information from the application database as well as some environment information, respectively.
 
+### Part 3: Remembering some concepts...
+
+The Book Service microservice is a Spring Boot application and has some classes that perform specific tasks. The first class to be addressed is the Book class. This class is used to perform the mapping between java objects and relational database tables. To do this, the first JPA notation placed is @Entity; this annotation defines the class as an entity, or it becomes a JPA entity. The second annotation is @Table; this annotation represents a table with a primary key that uniquely identifies each record in the table and that is associated with the table in the database; two more JPA annotations have been added which specify the ID and column in the database table, @Id and @Column, respectively. @Id represents the primary key; @Column indicates the column mapped to a property. 
+
+The BookRepository interface was created with an implementation class called BookRepositoryImpl. The class was annotated with @Repository and indicates that the interface becomes a repository; so Spring can create and inject the bean from the class. The repository manages a domain class and entity ID type. This management capability is provided by the CrudRepository interface. CrudRepository is a generic interface for performing CRUD operations on a repository. The domain class and ID are respectively the Book class and the Integer type.
+
+The BookService class has been annotated with @Service. All classes annotated with @Controller, @Repository and @Service are beans in Spring. When the @Service bean is created, the container injects dependencies, that is, the @Service bean works with other beans or objects like @Repository, for example. BookService has a dependency on BookRepository; once the bean is created, BookRepository is injected by the container into the BookService. The BookRepository dependency was injected into the BookService class using the @Autowired annotation.
   
 ## Project Status
 The project is currently under development.
