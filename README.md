@@ -7,7 +7,7 @@ This project aims to develop a web application that addresses microservices arch
 * [Inspiration](#inspiration)
 
 ## General info
-The project is an application that addresses the idea of microservices, which describes components of a system that are independent or "loosely coupled". Each component has a defined responsibility and the resources it needs to function.  For the development of the application's microservices, Spring framwork, MySQL for database management and the Postman tool for building HTTP requests are currently being used.
+The project is an application that addresses the idea of microservices, which describes components of a system that are independent or "loosely coupled". Each component has a defined responsibility and the resources it needs to function.  For the development of the application's microservices, Spring Boot, MySQL for database management, the Postman tool for building HTTP requests and React are currently being used.
 
 ## Development
 
