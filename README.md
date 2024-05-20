@@ -11,6 +11,10 @@ The project is an application that addresses the idea of microservices, which de
 
 ## Development
 
+###  Application domain model
+
+![](Mountain Vision domain model.PNG)
+
 ###  Microservice architecture-based version of the application
 
 ![](micro-service-arch-app.PNG)
