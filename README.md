@@ -14,7 +14,7 @@ The project is an application that addresses the idea of microservices, which de
 ###  Microservice architecture-based version of the application
 
 
-![](micro-arch-app.PNG)
+![](micro-service-arch-app.PNG)
 
 
 ### Part 2: Building a configuration server for a microservice
