@@ -20,7 +20,7 @@ The project is an application that addresses the idea of microservices, which de
 ![](micro-service-arch-app.PNG)
 
 ###  Homepage developed with Next.js
-![](Homepage.PNG)  
+![](homepage.PNG)  
 
 This homepage was developed using the Next.js framework. Next.js is defined as a React framework. Thus, from the React point of view, a component was created, rendered and displayed on the screen. 
 
