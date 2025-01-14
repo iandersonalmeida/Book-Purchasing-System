@@ -19,6 +19,11 @@ The project is an application that addresses the idea of microservices, which de
 
 ![](micro-service-arch-app.PNG)
 
+### Returning data from the book service
+![backendside-data-return](https://github.com/user-attachments/assets/a97b13bb-0830-4c29-8cfa-672763f14d36)
+
+Here is an example of communication between a MySQL database and a Spring Boot application that represents a service in the microservices architecture, in this case, a book service. I am using Spring Data JPA to access the database as well as the MVC architecture concept. Since this is a REST-based application, the service returns data in JSON format.
+
 ###  Homepage developed with Next.js
 ![](homepage.PNG)  
 
