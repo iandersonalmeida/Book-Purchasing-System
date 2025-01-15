@@ -40,6 +40,7 @@ This homepage was developed using the Next.js framework. Next.js is defined as a
 ------------------------------------
 
 ![](hompage-functionjs.PNG) 
+
 This component represents the application's homepage and is a Javascript function that contains other components. Tailwind CSS was also used to add style to the page.
 
 ---------------------------
