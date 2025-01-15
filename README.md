@@ -3,7 +3,7 @@ This project aims to develop a web application that addresses microservices arch
 
 * [General info](#general-info)
 * [Development](#c)
-   -[Application domain model](#application-domain-model)
+   - [Application domain model](#application-domain-model)
 * [Project Status](#project-status)
 * [Inspiration](#inspiration)
 
