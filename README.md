@@ -4,9 +4,9 @@ This project aims to develop a web application that addresses microservices arch
 * [General info](#general-info)
 * [Development](#c)
    - [Application domain model](#application-domain-model)
-   - [Microservice architecture-based version of the application](microservice-architecture-based-version-of-the-application)
-   - [Returning data from the book service](returning-data-from-the-book-service)
-   - [ Homepage developed with Next.js](homepage-developed-with-Next.js)
+   - [Microservice architecture-based version of the application](#microservice-architecture-based-version-of-the-application)
+   - [Returning data from the book service](#returning-data-from-the-book-service)
+   - [ Homepage developed with Next.js](#homepage-developed-with-Next.js)
 * [Project Status](#project-status)
 * [Inspiration](#inspiration)
 
