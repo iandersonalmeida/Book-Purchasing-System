@@ -16,8 +16,8 @@ The project is an application that addresses the idea of microservices, which de
 ## Development
 
 ### Application domain model
-
 ![](domain-model.PNG)
+---------------------------
 
 ### Microservice architecture-based version of the application
 
