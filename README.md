@@ -30,19 +30,19 @@ The project is an application that addresses the idea of microservices, which de
 
 Here is an example of communication between a MySQL database and a Spring Boot application that represents a service in the microservices architecture, in this case, a book service. I am using Spring Data JPA to access the database as well as the MVC architecture concept. Since this is a REST-based application, the service returns data in JSON format.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------
 
 ### Homepage developed with Next.js
 ![](homepage.PNG)  
 
 This homepage was developed using the Next.js framework. Next.js is defined as a React framework. Thus, from the React point of view, a component was created, rendered and displayed on the screen. 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------
 
 ![](hompage-functionjs.PNG) 
 This component represents the application's homepage and is a Javascript function that contains other components. Tailwind CSS was also used to add style to the page.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------
 
   
 ## Project Status
