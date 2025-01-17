@@ -1,0 +1,23 @@
+package ian.projects.backendside.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
+import ian.projects.backendside.domain.Book;
+
+@Repository
+public interface BookServiceRepository  extends JpaRepository<Book, Integer>  {
+	
+	@Query("select b from Book b where b.author = :author")
+		public Book findByAuthor(@Param(value = "author") String author);
+		
+		@Query("select b from Book b")
+		public List<Book> findAllBooks();
+		
+
+}

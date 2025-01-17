@@ -1,0 +1,24 @@
+package ian.projects.backendside;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
+import org.springframework.boot.test.mock.mockito.MockBean;
+
+import ian.projects.backend.controller.BookServiceController;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+@SpringBootTest
+class BookserviceApplicationTests {
+	
+	@Autowired	
+	private BookServiceController bookServiceController;
+
+	@Test
+	void contextLoads() throws Exception {
+		assertThat(bookServiceController).isNotNull();				
+	}
+
+}

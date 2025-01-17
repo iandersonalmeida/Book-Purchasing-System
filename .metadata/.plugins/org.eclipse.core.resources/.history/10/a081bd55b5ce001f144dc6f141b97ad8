@@ -1,0 +1,54 @@
+
+package ian.projects.backendside;
+
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+import ian.projects.backend.domain.Book;
+import ian.projects.backend.repository.BookServiceRepository;
+
+@SpringBootApplication
+//@EnableJpaRepositories(basePackages =  {"ian.projects.backend.repository"})
+@ComponentScan(basePackages = {"ian.projects.backend.controller","ian.projects.backend.service", "ian.projects.backend.domain"})
+public class BookserviceApplication {
+	
+
+	private static final Logger log = LoggerFactory.getLogger(BookserviceApplication.class);
+	
+	//------------------------------------------------------------
+		
+/*	@GetMapping("/")
+	public String getWord() {
+		return "project-38";
+	} */
+	
+	//---------------------------------------------------------------
+	
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookserviceApplication.class, args);
+	}
+
+ /*   @Bean
+    CommandLineRunner show(BookServiceRepository bookServiceRepository) {
+		return (args) ->{
+			
+			log.info("Books found with findAllBooks()");
+			log.info("-------------------------------");
+			List<Book> books = bookServiceRepository.findAllBooks();
+			//bookServiceRepository.findAllBooks().forEach(book -> {
+				log.info("Books returned: "+books.toString());
+				log.info("");
+			};
+		}; 
+		*/
+
+}
