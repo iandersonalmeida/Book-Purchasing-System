@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;configurationserver/src/main/resources/env/bookservice/dev/application-dev.properties&apos; to &apos;application.properties&apos;" description="Rename resource &apos;application-dev.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/env/bookservice/dev/application-dev.properties" name="application.properties" stamp="1717783525060" updateReferences="true"/>
-</session>
