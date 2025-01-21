@@ -1,0 +1,19 @@
+2025-01-21 15:05:48,613 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-21 15:18:40,873 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ianderson.almeida.projects:bookservice:0.0.1-SNAPSHOT @ C:\Users\The Developer\Desktop\project-38\backend-side\backend-side\bookservice\pom.xml.
+2025-01-21 15:18:55,029 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bookservice/src/main/java
+2025-01-21 15:18:55,040 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bookservice/src/main/resources
+2025-01-21 15:18:55,085 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bookservice/src/main/resources
+2025-01-21 15:18:55,103 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bookservice/src/test/java
+2025-01-21 15:18:55,106 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bookservice/src/test/resources
+2025-01-21 15:19:11,661 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 47 sec
+2025-01-21 15:19:11,685 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-01-21 15:19:13,962 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ianderson.almeida.projects:bookservice:0.0.1-SNAPSHOT @ C:\Users\The Developer\Desktop\project-38\backend-side\backend-side\bookservice\pom.xml.
+2025-01-21 15:19:17,744 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bookservice/src/main/java
+2025-01-21 15:19:17,746 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bookservice/src/main/resources
+2025-01-21 15:19:17,748 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bookservice/src/main/resources
+2025-01-21 15:19:17,749 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bookservice/src/test/java
+2025-01-21 15:19:17,752 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /bookservice/src/test/resources
+2025-01-21 15:19:20,816 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 5,00 sec, update config takes 1,00 sec 
+2025-01-21 15:19:24,952 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-21 15:19:25,091 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-21 15:19:25,115 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\The Developer\Desktop\project-38\backend-side\backend-side\bookservice\src\test\resources
