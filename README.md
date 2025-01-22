@@ -38,13 +38,6 @@ Here is an example of communication between a MySQL database and a Spring Boot a
 This homepage was developed using the Next.js framework. Next.js is defined as a React framework. Thus, from the React point of view, a component was created, rendered and displayed on the screen. 
 
 ------------------------------------
-
-![](hompage-functionjs.PNG) 
-
-This component represents the application's homepage and is a Javascript function that contains other components. Tailwind CSS was also used to add style to the page.
-
----------------------------
-
   
 ## Project Status
 The project is currently under development.
