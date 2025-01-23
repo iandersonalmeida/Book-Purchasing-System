@@ -6,7 +6,7 @@ This project aims to develop a web application that addresses microservices arch
    - [Application domain model](#application-domain-model)
    - [Microservice architecture-based version of the application](#microservice-architecture-based-version-of-the-application)
    - [Returning data from the book service](#returning-data-from-the-book-service)
-   - [ Homepage developed with Next.js](#homepage-developed-with-Next.js)
+   - [Homepage developed with Next.js](#homepage-developed-with-Next.js)
 * [Project Status](#project-status)
 * [Inspiration](#inspiration)
 
@@ -38,13 +38,6 @@ Here is an example of communication between a MySQL database and a Spring Boot a
 This homepage was developed using the Next.js framework. Next.js is defined as a React framework. Thus, from the React point of view, a component was created, rendered and displayed on the screen. 
 
 ------------------------------------
-
-![](hompage-functionjs.PNG) 
-
-This component represents the application's homepage and is a Javascript function that contains other components. Tailwind CSS was also used to add style to the page.
-
----------------------------
-
   
 ## Project Status
 The project is currently under development.
