@@ -16,19 +16,19 @@ export function Search(){
     } 
 
   function getData(){   
-    const promise = fetch(`http://localhost:2141/bookservice/api/v1/books/${text}`);
-   //const promise =  fetch( "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json");   
+    //const promise = fetch(`http://localhost:2141/bookservice/api/v1/books/${text}`);
+   const promise =  fetch( "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json");   
    promise.then(
     (response) =>{
       return response.json();
     }).then(
-      (data) =>{       
+      (data) =>{     
         setData(data);
       })
  }
 
   function handleClick(){
-       getData();
+      getData();
        /*let book = searchParams.getAll("data");       
        console.log(book.map((d:any)=>{
         return d.author;
@@ -43,8 +43,8 @@ export function Search(){
 
              <Link
                  href={{
-                  pathname:'/',
-                  query:{data}
+                  pathname:'/search-display',
+                  query:{data},
                  }}                  
              >      
                  <button type="submit" onClick={() => handleClick()} className="rounded-lg border-2 border-slate-800 ml-2 w-24 h-10  hover:bg-slate-100">Search </button>                  
@@ -58,7 +58,7 @@ export function Search(){
               <br/>
               <ul>
                 {data.map((d:any, idx)=>{
-                  return <li key={idx}>Author: {d.author} Title: {d.title}</li>
+                  return <li key={idx}> {d.name}</li>
                 })}
               </ul>
             </div>    }   
