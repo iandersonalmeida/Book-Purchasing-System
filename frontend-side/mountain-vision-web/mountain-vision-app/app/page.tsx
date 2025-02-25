@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { SearchButton } from './ui-components/buttons/search-button';
-import { LoginButton } from './ui-components/buttons/login-button';
+import { SearchButton } from './ui/buttons/search-button';
+import { LoginButton } from './ui/buttons/login-button';
 
 
 export default function Home() {

@@ -1,16 +1,14 @@
 
 'use client'
 
-import Display from "@/app/display/page";
-import searchProducts from "@/lib/products"
 import Link from "next/link";
+
+import { getProducts } from "@/app/display/page";
 
 export function SearchButton(){
     
     function handleClick(){
-        const data = searchProducts();
-        console.log(data);
-        <Display data={data} />
+        getProducts();
     }
     
 
